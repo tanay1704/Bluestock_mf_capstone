@@ -268,4 +268,32 @@ for q in queries:
 
 ---
 
+## Power BI Dashboard Highlights
+
+The production executive dashboard ([dashboard/bluestock_mf.pbix](dashboard/bluestock_mf.pbix)) provides four comprehensive analytical views engineered with enterprise visual hierarchy, dark glassmorphic styling, and DAX measures:
+
+### Page 1: Executive Overview & Fund Performance
+*High-level AUM benchmarks, 3-year annualized return distributions across fund categories, and top-performing schemes.*
+![Page 1: Executive Overview](assets/p1.png)
+
+---
+
+### Page 2: Risk-Return Profile & Historical NAV Trends
+*Bivariate Sharpe ratio vs. annualized volatility scatter plots, multi-asset historical NAV time series, and maximum drawdown risk grading.*
+![Page 2: Risk-Return & NAV Analytics](assets/p2.png)
+
+---
+
+### Page 3: Transaction Dynamics & Cash Flow Analysis
+*Granular breakdown uncovering the platform's capital structure: **₹2.06 Bn Lumpsum (58.5%)** versus **₹0.22 Bn SIP (6.2%)**, monthly inflow volumes, and redemption turnover.*
+![Page 3: Transaction Dynamics](assets/p3.png)
+
+---
+
+### Page 4: AI Investor Segmentation & Persona Scorecards
+*Unsupervised K-Means clustering ($k=3$) surfacing behavioral investor segments—**Moderate Retail**, **Affluent HNI**, and **Emerging Youth**—with demographic distributions and targeted marketing playbooks.*
+![Page 4: AI Persona Analytics](assets/p4.png)
+
+---
+
 *Bluestock Fintech Internship Capstone Project | Production Handover Complete* 🚀
