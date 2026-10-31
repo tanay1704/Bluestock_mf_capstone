@@ -1,6 +1,14 @@
-# Environments
+# Environments & Secrets
 .env
-.venv
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+secrets/
+.venv/
 env/
 venv/
 ENV/
@@ -12,14 +20,22 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+data/db/*.db
+
+# Model artifacts
+*.pkl
+*.pickle
+data/models/*.pkl
+
 # IDEs and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -33,16 +49,20 @@ lib/
 lib64/
 parts/
 sdist/
-var/
 wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
+Tanay_Submission/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # Streamlit
 .streamlit/
+
+# Logs
+logs/
+*.log
